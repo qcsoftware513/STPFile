@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+  <folder name="Templates">
+    <folder name="Other">
+      <file name="stp.stp" url="STPTemplate.sql">
+        <![CDATA[]]>
+        <attr name="displayName" stringvalue="Stored Procedure File"/>
+        <attr name="iconBase" stringvalue="org/billman/stp/sql.png"/>
+        <attr name="position" intvalue="2000"/>
+        <attr name="template" boolvalue="true"/>
+        <attr name="templateWizardURL" urlvalue="nbresloc:/org/billman/stp/STPTemplate.sql"/>
+        <attr name="instantiatingIterator" newvalue="org.billman.stp.StpWizardIterator"/>
+        <attr name="templateCategory" stringvalue="simple-files"/>
+        <attr name="requireProject" boolvalue="false"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+      </file>
+      <file name="trg.trg" url="TrgTemplate.sql">
+        <![CDATA[]]>
+        <attr name="displayName" stringvalue="Trigger File"/>
+        <attr name="position" intvalue="2000"/>
+        <attr name="template" boolvalue="true"/>
+        <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/billman/stp/sql.png"/>
+        <attr name="instantiatingIterator" newvalue="org.billman.stp.TrgWizardIterator"/>
+        <attr name="templateWizardURL" urlvalue="nbresloc:/org/billman/stp/TrgTemplate.sql"/>
+        <attr name="templateCategory" stringvalue="simple-files"/>
+        <attr name="requireProject" boolvalue="false"/>
+        <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+      </file>
+    </folder>
+  </folder>
+</filesystem>
